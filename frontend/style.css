@@ -11,6 +11,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     
+    
 }
 
 
@@ -19,11 +20,12 @@ button {
     background-repeat: no-repeat;
     background-size: cover; 
     border: none;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
     position:unset;
     padding: 1px;
+    margin:3px;
 }
 
 .container{
@@ -56,11 +58,15 @@ button {
     backdrop-filter: blur(8px);
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px;
+    border-radius: 30px;
+    border: 1px solid black;
 }
+
